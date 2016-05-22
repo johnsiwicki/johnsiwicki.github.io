@@ -1,0 +1,40 @@
+body, nav {
+  background-color: #2C3940;
+}
+
+nav {
+  padding: 0px 10px;
+}
+
+.header {
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 58px;
+}
+
+.header span {
+  color: #02C0DC;
+}
+
+.main-title p {
+  color: white;
+  font-size: 16px;
+}
+
+.main-title {
+  padding: 70px 0;
+}
+
+.brand-logo {
+  padding: 5px 0 !important;
+}
+
+.brand-logo img {
+  max-height: 64px;
+}
+
+@media only screen and (min-device-width: 640px) {
+  .brand-logo img {
+    max-height: 48px;
+  }
+}
