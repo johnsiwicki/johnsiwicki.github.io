@@ -153,3 +153,10 @@ a {
   a:hover {
     background: #f5d76e;
     text-decoration: none; }
+    
+    
+      .icon-b {
+         width: 50%;
+         display: block;
+         float: right;
+      }
