@@ -125,7 +125,7 @@ dt, dd {
 
 @media (min-width: 640px) {
   dt, dd {
-    margin-bottom: 60px; }
+    margin-bottom: 20px; }
 
   .experience dt {
     width: 30%;
