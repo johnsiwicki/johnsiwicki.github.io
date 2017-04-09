@@ -46,6 +46,38 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/** grid **/ 
+.wrapper {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 250px 250px 250px;
+    background-color: #fff;
+    color: #444;
+  }
+
+  @media screen and (max-width: 1024px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10vh 10vh;
+  }
+}
+
+ .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 150%;
+}
+
+.box a {
+  display: block;
+  color:white;
+  text-decoration: none;
+  padding: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
 .container {
   max-width: 860px;
   margin: 0 auto;
@@ -115,48 +147,23 @@ header {
   .footer__subtitle {
     text-transform: capitalize; }
 
-dl {
-  margin-bottom: 20px; }
-
-dt, dd {
-  display: inline-block;
-  vertical-align: top;
-  margin-bottom: 20px; }
-
-@media (min-width: 640px) {
-  dt, dd {
-    margin-bottom: 20px; }
-
-  .experience dt {
-    width: 30%;
-    padding-right: 40px; }
-  .experience dd {
-    width: 70%; }
-
-  .education dt, .education dd {
-    width: 30%; } 
-
-    .education dd {
-    width: 70%; 
-  } 
-
-  }
+ 
 .title {
   margin: 0;
   font-weight: bold;
   font-size: 1.2rem; }
 
-a {
-  color: black !important;
-  background: rgba(245, 215, 110, 0.5);
-  transition: all linear .2s; }
-  a:hover {
-    background: #f5d76e;
-    text-decoration: none; }
+ 
     
     
       .icon-b {
-         width: 50%;
+         width: 35%;
          display: block;
          float: right;
       }
+
+
+
+
+ 
+  }
