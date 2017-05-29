@@ -1,0 +1,56 @@
+.container {
+  max-width: 860px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.section-title:after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  margin-left: -25px;
+  width: 50px;
+  height: 1px;
+  background: #222;
+}
+
+.intro {
+  margin-bottom: 40px;
+}
+
+.intro__pre,
+.intro__post {
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.intro__main {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  font-weight: bold;
+  margin: 10px 0 20px;
+}
+
+@media (min-width: 640px) {
+  .intro__main {
+    font-size: 2.2rem;
+    max-width: 60%;
+  }
+}
+
+.icon-b {
+  width: 35%;
+  display: block;
+  float: right;
+}
